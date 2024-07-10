@@ -1,44 +1,48 @@
 
+
 li a{
   font-size: 13px;
-  color: #10132D;
 }
-
+.logo{
+  width: 100%;
+  height: 130px;
+  margin: 15px 0;
+  object-fit: contain;
+}
 nav, li, a{
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
-  color: #10132D;
+  color: #fff;
 }
 h1{
   text-align: center;
-  background-color: #10132D;
+  background-color: black;
   margin: 0;
   padding: 20px;
   font-size: 60px;
 }
 h1 a{
-  color: #F7B521;
+  color: #ffc549;
 }
 nav{
   display: flex;
   height: 40px;
   justify-content: center;
-  background-color: #F7B521;
+  background-color: black;
 }
 li a{
   display: flex;
-  height: 100%;
+  height: 100%; 
   padding: 0 20px;
   align-items: center;
-  justify-content: center;
   position: relative;
 }
 li{
   display: flex;
-  align-items: center;
 }
+
 /*lineas */
 li a::after {
   content: '';
@@ -54,7 +58,8 @@ li a::after {
 }
 
 li a:hover::after {
-  background-color: #10132D; /* Color de la línea al hacer hover */
+  background-color: #ffc549;
+  box-shadow: 1px 1px 3px rgb(255, 187, 0); /* Color de la línea al hacer hover */
 }
 
 /*
@@ -83,7 +88,9 @@ swiper-container{
   height: 100%;
   border-radius: 10px;
   align-items: center;
-  background-color: #3187AD;
+  background-image: url("/panel-principal/fondoblog.png");;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 .swiper-style p{
   width: 100%;
@@ -94,6 +101,7 @@ swiper-slide{
   padding: 20px 0;
 }
 swiper-slide img{
+  border-radius:10px;
   width: 50px;
   height: 50px;
   padding: 5px;

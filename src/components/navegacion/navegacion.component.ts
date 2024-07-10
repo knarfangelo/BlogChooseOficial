@@ -15,16 +15,13 @@ register();
     CommonModule,
   ],
   template: `
-    <h1><a href="">Blog CHÒÓSE</a> </h1>
+  <div class="container-navegacion">
+    <h1><a href=""><img class="logo" src="/navegacion/novedades/logo.png" alt=""></a> </h1>
     <nav>
       <li><a href="">WEB Y PROGRAMACION</a> </li>
-      <li> - </li>
       <li><a href="">LEY DEL OLVIDO</a> </li>
-      <li> - </li>
       <li><a href="">CONTENIDO DIGITAL</a> </li>
-      <li> - </li>
       <li><a href="">SOCIAL LISTENING</a> </li>
-      <li> - </li>
       <li><a href="">AUTOR</a></li>
     </nav>
     <div class="container-novedades">
@@ -40,7 +37,7 @@ register();
           </swiper-slide>
         }
       </swiper-container>
-    </div>
+    </div></div>
   `,
   styleUrl: './navegacion.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -58,6 +55,7 @@ export class NavegacionComponent {
           nextEl:'.swiper-button-next',
           prevEl:'.swiper-button-prev',
         },
+        loop:true,
         autoplay:true,
         slidesPerView: 'auto',
         speed: 2000,
