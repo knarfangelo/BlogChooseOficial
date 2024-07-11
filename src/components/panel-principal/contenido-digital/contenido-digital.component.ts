@@ -1,7 +1,6 @@
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { ChangeDetectionStrategy, Component, CUSTOM_ELEMENTS_SCHEMA, signal } from '@angular/core';
 import { register, SwiperContainer } from 'swiper/element/bundle';
-import { SwiperOptions } from 'swiper/types';
 register();
 
 @Component({
@@ -10,13 +9,14 @@ register();
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
     CommonModule,
+    NgOptimizedImage,
   ],
   template: ` 
   <header>
     <article class="panel-1">
       <h1>WEB Y PROGRAMACION</h1>
       <a href="" class="articulo-1">
-        <img src="/panel-principal/desarrollowebinnovacion.png" alt="">
+        <img ngSrc="/panel-principal/desarrollowebinnovacion.png" [width]=250 [height]=250 alt="">
         <div class="fondo"></div>
         <div class="contenido">
         <ul>
@@ -32,7 +32,7 @@ register();
     <article class="panel-2">
       <h1>LEY DEL OLVIDO</h1>
       <a href="" class="articulo-2">
-      <img src="/panel-principal/ORIGENDELALEYDELOLVIDO.png" alt="">
+      <img ngSrc="/panel-principal/ORIGENDELALEYDELOLVIDO.png" [width]=250 [height]=250  alt="">
       <div class="fondo"></div>
       <div class="contenido">
         <ul>
@@ -44,7 +44,7 @@ register();
         </div>
       </a>
       <a href="" class="articulo-3">
-      <img src="/panel-principal/LALEYDELOLVIDOPROTEGETUREPUTACION.png" alt="">
+      <img ngSrc="/panel-principal/LALEYDELOLVIDOPROTEGETUREPUTACION.png" [width]=250 [height]=250  alt="">
       <div class="fondo"></div>
       <div class="contenido">
         <ul>

@@ -1,8 +1,7 @@
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { ChangeDetectionStrategy, Component, CUSTOM_ELEMENTS_SCHEMA, signal } from '@angular/core';
 import { register, SwiperContainer } from 'swiper/element';
 import { SwiperOptions } from 'swiper/types';
-import { INovedades } from '../../navegacion/BDNavegacion/INovedades';
 import { IContenido } from './BDContenido/IContenido';
 import { contenidoJSON } from './BDContenido/contenidoJSON';
 register();
@@ -11,6 +10,7 @@ register();
   standalone: true,
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
+    NgOptimizedImage,
     CommonModule,
   ],
   template: `
@@ -23,7 +23,7 @@ register();
                 <swiper-slide>
                   <div class="slide-style">
                     <div class="articulo">
-                    <img [src]="item.img" alt="">
+                    <img [ngSrc]="item.img" [width]=250 [height]=250 [alt]="item.titulo">
                     <ul class="etiquetas">
                     @for (etiqueta of item.etiquetas; track $index) {
                       <li class="etiqueta">{{etiqueta}}</li>

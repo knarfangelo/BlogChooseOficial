@@ -1,10 +1,9 @@
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { ChangeDetectionStrategy, Component, CUSTOM_ELEMENTS_SCHEMA, signal } from '@angular/core';
 import { register, SwiperContainer } from 'swiper/element/bundle';
 import { INovedades } from './BDNavegacion/INovedades';
 import { novedadesJSON } from './BDNavegacion/novedadesJSON';
 import { SwiperOptions } from 'swiper/types';
-
 register();
 
 @Component({
@@ -13,10 +12,11 @@ register();
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
     CommonModule,
+    NgOptimizedImage
   ],
   template: `
   <div class="container-navegacion">
-    <h1><a href=""><img class="logo" src="/navegacion/novedades/logo.png" alt=""></a> </h1>
+    <h1><a href=""><img class="logo" ngSrc="/navegacion/novedades/logo.png" [width]=250 [height]=250 alt=""></a> </h1>
     <nav>
       <li><a href="">WEB Y PROGRAMACION</a> </li>
       <li><a href="">LEY DEL OLVIDO</a> </li>
@@ -31,7 +31,7 @@ register();
           <swiper-slide>
             <a href="">
             <div class="swiper-style">
-            <img [src]="item.img" [alt]="item.titulo">
+            <img [ngSrc]="item.img" [width]=250 [height]=250 [alt]="item.titulo">
             <p>{{item.titulo}}</p>
             </div></a>
           </swiper-slide>
