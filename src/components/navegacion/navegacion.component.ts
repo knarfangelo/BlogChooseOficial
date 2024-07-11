@@ -16,7 +16,7 @@ register();
   ],
   template: `
   <div class="container-navegacion">
-    <h1><a href=""><img class="logo" ngSrc="/navegacion/novedades/logo.png" [width]=250 [height]=250 alt=""></a> </h1>
+    <h1><a class="container-logo" href=""><img class="logo" src="/navegacion/novedades/logo.png" alt="" priority="" ></a> </h1>
     <nav>
       <li><a href="">WEB Y PROGRAMACION</a> </li>
       <li><a href="">LEY DEL OLVIDO</a> </li>

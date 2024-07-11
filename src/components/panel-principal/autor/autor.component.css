@@ -34,6 +34,8 @@ a:hover{
 }
 p{
   margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 li a img{
   width: 30px;

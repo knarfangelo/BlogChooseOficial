@@ -16,7 +16,7 @@ register();
     <article class="panel-1">
       <h1>WEB Y PROGRAMACION</h1>
       <a href="" class="articulo-1">
-        <img ngSrc="/panel-principal/desarrollowebinnovacion.png" [width]=250 [height]=250 alt="">
+        <img ngSrc="/panel-principal/desarrollowebinnovacion.png" fill="" alt="" priority="">
         <div class="fondo"></div>
         <div class="contenido">
         <ul>
@@ -32,7 +32,7 @@ register();
     <article class="panel-2">
       <h1>LEY DEL OLVIDO</h1>
       <a href="" class="articulo-2">
-      <img ngSrc="/panel-principal/ORIGENDELALEYDELOLVIDO.png" [width]=250 [height]=250  alt="">
+      <img ngSrc="/panel-principal/ORIGENDELALEYDELOLVIDO.png" fill=""  alt="">
       <div class="fondo"></div>
       <div class="contenido">
         <ul>
@@ -44,7 +44,7 @@ register();
         </div>
       </a>
       <a href="" class="articulo-3">
-      <img ngSrc="/panel-principal/LALEYDELOLVIDOPROTEGETUREPUTACION.png" [width]=250 [height]=250  alt="">
+      <img ngSrc="/panel-principal/LALEYDELOLVIDOPROTEGETUREPUTACION.png" fill=""  alt="">
       <div class="fondo"></div>
       <div class="contenido">
         <ul>

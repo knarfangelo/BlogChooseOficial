@@ -21,9 +21,12 @@ import { ContenidoComponent } from "./contenido/contenido.component";
   <header>
     <main>
       <app-contenido-digital></app-contenido-digital>
-      <app-contenido></app-contenido>
+<!-- 
+   <app-contenido></app-contenido>
       <app-presentacion></app-presentacion>
-      <app-autor></app-autor>
+      <app-autor></app-autor>   
+
+-->     
     </main> 
 
     <app-footer></app-footer> 
