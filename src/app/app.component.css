@@ -1,0 +1,15 @@
+
+
+app-navegacion-responsive {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    app-navegacion {
+      display: none;
+    }
+  
+    app-navegacion-responsive {
+      display: block;
+    }
+}

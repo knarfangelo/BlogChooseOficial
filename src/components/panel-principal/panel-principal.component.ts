@@ -25,8 +25,6 @@ import { ContenidoComponent } from "./contenido/contenido.component";
       <app-presentacion></app-presentacion>
       <app-autor></app-autor>       
     </main> 
-
-    <app-footer></app-footer> 
 </header>
   `,
   styleUrl: './panel-principal.component.css',

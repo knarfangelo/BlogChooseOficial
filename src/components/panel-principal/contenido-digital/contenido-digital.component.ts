@@ -1,5 +1,6 @@
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { ChangeDetectionStrategy, Component, CUSTOM_ELEMENTS_SCHEMA, signal } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { register, SwiperContainer } from 'swiper/element/bundle';
 register();
 
@@ -10,6 +11,7 @@ register();
   imports: [
     CommonModule,
     NgOptimizedImage,
+    RouterLink,
   ],
   template: ` 
   <header>
@@ -31,7 +33,7 @@ register();
 
     <article class="panel-2">
       <h1>LEY DEL OLVIDO</h1>
-      <a href="" class="articulo-2">
+      <a routerLink="/articulo/el-origen-de-la-ley-del-olvido" class="articulo-2">
       <img ngSrc="/panel-principal/ORIGENDELALEYDELOLVIDO.png" fill=""  alt="">
       <div class="fondo"></div>
       <div class="contenido">
@@ -43,7 +45,7 @@ register();
         <p>junio 6, 2024</p>
         </div>
       </a>
-      <a href="" class="articulo-3">
+      <a href="/articulo/la-ley-del-olvido-protege-tu-reputacion-con-choose" class="articulo-3">
       <img ngSrc="/panel-principal/LALEYDELOLVIDOPROTEGETUREPUTACION.png" fill=""  alt="">
       <div class="fondo"></div>
       <div class="contenido">
