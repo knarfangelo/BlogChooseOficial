@@ -4,6 +4,7 @@ import { NavegacionComponent } from "../navegacion/navegacion.component";
 import { PanelPrincipalComponent } from "../panel-principal/panel-principal.component";
 import { FooterComponent } from "../panel-principal/footer/footer.component";
 import { NavegacionResponsiveComponent } from "../navegacion-responsive/navegacion-responsive.component";
+import { WhatsappComponent } from "../whatsapp/whatsapp.component";
 
 @Component({
   selector: 'app-blog-choose',
@@ -13,10 +14,12 @@ import { NavegacionResponsiveComponent } from "../navegacion-responsive/navegaci
     NavegacionComponent,
     PanelPrincipalComponent,
     FooterComponent,
-    NavegacionResponsiveComponent
+    NavegacionResponsiveComponent,
+    WhatsappComponent
 ],
   template: `
        <app-panel-principal></app-panel-principal>
+       <app-whatsapp></app-whatsapp>   
   `,
   styleUrl: './blog-choose.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
