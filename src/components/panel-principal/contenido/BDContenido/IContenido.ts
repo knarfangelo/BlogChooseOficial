@@ -1,6 +1,6 @@
 
 export interface IContenido {
-    id:number;
+    id:string;
     img:string;
     etiquetas:string[];
     titulo:string;

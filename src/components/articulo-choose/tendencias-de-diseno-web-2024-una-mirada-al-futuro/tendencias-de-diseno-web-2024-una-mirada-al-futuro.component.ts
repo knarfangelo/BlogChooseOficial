@@ -10,7 +10,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   template: `
       <header>
     <div class="container-encabezado">
-    <img src="/panel-principal/ORIGENDELALEYDELOLVIDO.png" alt="">
+    <img src="/navegacion/contenido/DESARROLLOWEBinnovacion.png" alt="">
     <h2>Tendencias De Diseño Web 2024: Una Mirada Al Futuro</h2>
     <h4>Por choose / junio 4, 2024</h4>
     </div>

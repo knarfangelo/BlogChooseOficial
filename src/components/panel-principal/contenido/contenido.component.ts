@@ -25,7 +25,7 @@ register();
                 <swiper-slide>
                   <div class="slide-style">    
                     <div class="articulo">
-                    <a [routerLink]="['/article', item.id]">
+                    <a [routerLink]="item.id">
                     <img [ngSrc]="item.img" [width]=250 [height]=250 [alt]="item.titulo">
                     </a>
                     <ul class="etiquetas">
@@ -88,7 +88,5 @@ export class ContenidoComponent {
       this.swiperElements.set(swiperElemConstructor as SwiperContainer);
       this.swiperElements()?.initialize();
     }
-    trackByFn(index: number, item: IContenido): number {
-      return item.id;
-    }
+
  }

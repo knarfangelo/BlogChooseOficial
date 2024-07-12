@@ -4,6 +4,7 @@ import { register, SwiperContainer } from 'swiper/element/bundle';
 import { INovedades } from './BDNavegacion/INovedades';
 import { novedadesJSON } from './BDNavegacion/novedadesJSON';
 import { SwiperOptions } from 'swiper/types';
+import { RouterLink } from '@angular/router';
 register();
 
 @Component({
@@ -12,7 +13,8 @@ register();
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
     CommonModule,
-    NgOptimizedImage
+    NgOptimizedImage,
+    RouterLink
   ],
   template: `
   <div class="container-navegacion">
@@ -20,16 +22,16 @@ register();
     <nav>
       <li><a href="">WEB Y PROGRAMACION</a> </li>
       <li><a href="">LEY DEL OLVIDO</a> </li>
-      <li><a href="">CONTENIDO DIGITAL</a> </li>
+      <li><a href="#contenido">CONTENIDO DIGITAL</a> </li>
       <li><a href="">SOCIAL LISTENING</a> </li>
-      <li><a href="">AUTOR</a></li>
+      <li><a href="#autor">AUTOR</a></li>
     </nav>
     <div class="container-novedades">
       <p class="titulo-novedades">Novedades</p>
       <swiper-container init=false class="swiper-navegacion">
         @for (item of items; track $index) {
           <swiper-slide>
-            <a href="">
+            <a [routerLink]="item.id">
             <div class="swiper-style">
             <img [ngSrc]="item.img" [width]=250 [height]=250 [alt]="item.titulo">
             <p>{{item.titulo}}</p>

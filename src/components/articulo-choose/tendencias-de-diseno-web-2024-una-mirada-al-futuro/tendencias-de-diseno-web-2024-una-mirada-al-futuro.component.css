@@ -19,17 +19,48 @@ header{
   align-items: center;
 }
 .container-encabezado{
-  background-color: #fffffff3;
   box-sizing: border-box;
-  padding: 30px;
+  border: 20px solid white;
   width: 100%;
   max-width: 1000px;
+  position: relative;
+}
+.container-encabezado h2{
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+  left: 0;
+  color: white;
+  padding: 70px 0px;
+  padding-left: 20px;
+  width: 100%;
+  text-shadow: 1px 1px 1px black;
+}
+
+.container-encabezado::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, #000 0%, transparent 45%);
+}
+.container-encabezado h4{
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  padding: 20px 0px;
+  padding-left: 20px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
 }
 img{
-  max-width: 500px;
   width: 100%;
-  height: 300px;
+  height: 100%;
   object-fit: cover;
+  bottom: 0;
 }
 p{
   text-align: justify;
