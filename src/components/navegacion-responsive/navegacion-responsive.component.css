@@ -5,6 +5,7 @@ header{
   align-items: center;
   width: 100%;
   position: fixed;
+  z-index: 2000;
 }
 ul,li{
   margin: 0;
@@ -16,12 +17,21 @@ ul,li{
   display: flex;
   height: auto;
 }
+.flecha{
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  position: absolute;
+  z-index: 1000;
+  left: 60px;
+}
 nav{
   top: 60px;
   z-index: 500;
   display: flex;
   justify-content: center;
   width: 100%;
+  position: absolute;
 }
 ul{
   display: flex;
@@ -66,12 +76,34 @@ button{
   width: 100%;
   transform: translateX(-100vw);
   transition: transform 0.3s ease;
+  position: none;
 }
 
 .button-nav.open{
   transform: translateX(0); /* Mostrar el menú */
   position: absolute;
 }
+
+@keyframes moveRight {
+  0%, 100% {
+    left: 60px; /* Posición original */
+  }
+  50% {
+    left: 65px; /* 5px a la derecha */
+  }
+}
+
+
+.flecha {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  position: absolute;
+  z-index: 1000;
+  left: 60px;
+  animation: moveRight 1s infinite; /* Duración de 5 segundos, animación infinita */
+}
+
 @media (max-width: 800px) {
   
 }
