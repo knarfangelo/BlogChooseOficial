@@ -11,30 +11,50 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <header>
     <div class="container-encabezado">
     <img src="/panel-principal/ORIGENDELALEYDELOLVIDO.png" alt="">
-    <h2>El Origen De La Ley Del Olvido</h2>
-    <h4>Por choose / junio 6, 2024</h4>
+    <h2>Tendencias De Diseño Web 2024: Una Mirada Al Futuro</h2>
+    <h4>Por choose / junio 4, 2024</h4>
     </div>
     <main>
-    <h1>¿Cómo nació esta ley clave para tu marca personal?</h1>
-    <p> Hoy queremos hablarte sobre el origen de la Ley del Olvido, una legislación crucial para proteger tu marca personal, especialmente en el ámbito político. Como tu socio estratégico, estamos aquí para ayudarte a comprender esta ley y cómo puede beneficiar tu reputación en línea.</p>
+    <h1>¡Bienvenidos al Futuro del Diseño Web!</h1>
+    <p>Desde Choose, la mejor agencia de diseño web, te traigo las mejores herramientas y consejos para potenciar tu marca.</p>
+    <br>
+    <p>Soy Charles, una IA del futuro, y te daré las tendencias de diseño web más modernas y potentes, solo para nuestros socios. Hoy te invitamos a explorar las tendencias más innovadoras que transformarán la experiencia de usuario y lo llevarán a una fidelización genuina. Prepárate para dar un vistazo al futuro y lograr tu transformación digital efectiva.</p>
     <h2>¿Qué es la Ley del Olvido?</h2>
-    <p>La Ley del Olvido es un derecho que permite a las personas solicitar la eliminación de datos personales de los resultados de búsqueda de Internet y otras bases de datos cuando estos datos son inadecuados, irrelevantes o desactualizados. Este derecho es fundamental para aquellos que buscan mantener una imagen profesional y limpia en la red, lo cual es especialmente importante para quienes construyen su marca personal en el ámbito político.</p>
-    <h2>El Caso que Originó la Ley del Olvido</h2>
-    <p>La historia de la Ley del Olvido comienza con un caso emblemático en la Unión Europea. En 2010, el español Mario Costeja González solicitó a Google que eliminara los enlaces a una subasta de propiedades relacionada con deudas que había saldado muchos años antes. Estos enlaces aparecían cuando se buscaba su nombre en Google, afectando negativamente su reputación. Costeja González argumentó que esta información era irrelevante y desactualizada, y que su presencia en los resultados de búsqueda infringía su privacidad y dañaba su marca personal. La Agencia Española de Protección de Datos (AEPD) apoyó su solicitud y ordenó a Google eliminar los enlaces, pero Google apeló la decisión.</p>
-    <h2>La Decisión del Tribunal de Justicia de la Unión Europea (TJUE)</h2>
-    <p>En mayo de 2014, el Tribunal de Justicia de la Unión Europea (TJUE) falló a favor de Costeja González, estableciendo que los motores de búsqueda como Google son responsables del procesamiento de datos personales y deben cumplir con las solicitudes de eliminación de enlaces cuando los datos son inadecuados, irrelevantes o ya no pertinentes. Este fallo histórico dio origen a lo que hoy conocemos como la Ley del Olvido.</p>
-    <h2>La Importancia de la Ley del Olvido en el Ámbito Político</h2>
-    <p>Para aquellos en el ámbito político, la Ley del Olvido es una herramienta vital para gestionar y proteger su marca personal. En la era digital, cualquier información, relevante o no, puede influir en la percepción pública y, por ende, en la carrera política de una persona.</p>
-    <h2>Ejemplos de Aplicación en la Política</h2>
-    <ul>
-      <li>Eliminación de Contenido Desactualizado: Políticos han utilizado la Ley del Olvido para eliminar noticias y artículos antiguos que ya no reflejan su posición actual o sus logros.</li><br>
-      <li>Protección contra Campañas Difamatorias: En tiempos de campaña, es común que se difundan contenidos perjudiciales que pueden dañar la reputación de un candidato. La Ley del Olvido permite mitigar estos efectos.
-      </li><br>
-      <li>Limpieza de Imagen para Nuevos Candidatos: Nuevos aspirantes a cargos públicos pueden limpiar su presencia en línea de contenido irrelevante o perjudicial antes de lanzar sus campañas.
-      </li><br>
-    </ul>
-    <h2>Cómo Choose Puede Ayudarte</h2>
-    <p>Como Google Partners, tenemos el poder de ofrecer un servicio especializado para la eliminación de contenido perjudicial, sustentado en la Ley del Olvido. Nuestro equipo de expertos trabajará arduamente para asegurar que tu imagen en línea esté siempre limpia.</p>
+    <p>Diseño Oscuro y Modos Adaptativos: Para esta época, el diseño oscuro ha ganado popularidad y seguirá siendo una tendencia de diseño web el 2024.</p>
+    <p>Este estilo no solo ofrece una potente estética, sino que también disminuye la fatiga visual y ahorra energía en dispositivos OLED. Además, los modos adaptativos permiten a los usuarios alternar entre temas claros y oscuros proporcionando una experiencia más personalizada y accesible.</p>
+    <h2>Beneficios del Diseño Oscuro</h2>
+    <p>Mejora la experiencia del usuario: Mayor descanso visual y una apariencia más sofisticada.
+    Ahorro de energía: Especialmente en dispositivos móviles con pantallas OLED.</p>
+    <ol>
+      <li>Microinteracciones Mejoradas</li>
+      <p>
+      Las microinteracciones son pequeñas animaciones o respuestas visuales que mejoran el UX. En esta época, estas se están volviendo más sofisticadas, proporcionando retroalimentación inmediata y guiando al usuario de manera intuitiva a través del sitio web.
+      </p>
+      <p>Ejemplos de Microinteracciones</p>
+      <p>Animaciones de botones: Cambios sutiles al pasar el cursor o hacer clic.</p>
+      <p>Notificaciones contextuales: Mensajes emergentes que guían al usuario en su navegación.</p>
+      <li>Tipografía Maximalista</li>
+      <p>La tipografía se convierte en el protagonista en muchos diseños web modernos. En estos tiempos, los tipos de letras grandes y llamativas, colores vivos y estilos únicos, crean una declaración visual fuerte y memorable. Esta tendencia se centra en la legibilidad y el impacto, logrando que los mensajes clave sean claros y penetrantes.</p>
+      <h2>Beneficios de la Tipografía Maximalista</h2>
+      <p>Impacto visual: Jala la vista y refuerza la identidad de marca.</p>
+      <p>Legibilidad mejorada: Letras claras y directas para los usuarios.</p>
+      <li> Diseño Inclusivo y Accesible</li>
+      <p>La accesibilidad es más importante que nunca. Para este año, el diseño web inclusivo no es una opción, sino una necesidad. Crear websites accesibles para todos los usuarios, independientemente de sus habilidades o dispositivos, es crucial. Esto incluye el uso de contraste en los colores, textos alternativos para imágenes, y navegación compatible con teclado.</p>
+      <h2>Características principales del diseño accesibles</h2>
+      <p>Contraste de color: Facilita la lectura para personas con discapacidad visual.
+      Etiquetas descriptivas: Ayudan a los usuarios de lectores de pantalla a entender el contenido.</p>
+      <li>Realidad Aumentada (AR) y Experiencias Inmersivas</li>
+      <p>En esta actualidad, la integración de la realidad aumentada en el diseño web está abriendo nuevas posibilidades. Desde probadores virtuales hasta experiencias interactivas en tiempo real, la AR ofrece a los usuarios una manera única y envolvente de interactuar con productos y servicios online.</p>
+      <p>Aplicaciones de la Realidad Aumentada.</p>
+      <br>
+      <p>E-commerce: Prueba virtual de productos como ropa o muebles.</p>
+      <p>Educación y formación: Experiencias de aprendizaje inmersivas y prácticas.</p><br>
+      <p>
+      ¡Somos tus socios perfectos para el futuro de tu diseño web!
+Estas tendencias no solo transforman la apariencia de los sitios web, sino que también mejoran la funcionalidad y la experiencia del usuario. Nosotros, somos especialistas en el diseño web estratégico y estamos aquí para ser tus socios, implementar estas innovaciones llevarán tu presencia digital al siguiente nivel. <br>
+¡El futuro del diseño web está con nosotros, estamos emocionados de acompañarte en este viaje hacia un mañana mejor!
+      </p>
+    </ol>
     </main>
   `,
   styleUrl: './tendencias-de-diseno-web-2024-una-mirada-al-futuro.component.css',

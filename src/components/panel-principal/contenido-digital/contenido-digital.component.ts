@@ -17,7 +17,7 @@ register();
   <header>
     <article class="panel-1">
       <h1>WEB Y PROGRAMACION</h1>
-      <a href="" class="articulo-1">
+      <a routerLink="/articulo/tendencias-de-diseno-web-2024-una-mirada-al-futuro" class="articulo-1">
         <img ngSrc="/panel-principal/desarrollowebinnovacion.png" fill="" alt="" priority="">
         <div class="fondo"></div>
         <div class="contenido">

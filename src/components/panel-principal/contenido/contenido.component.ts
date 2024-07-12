@@ -4,6 +4,7 @@ import { register, SwiperContainer } from 'swiper/element';
 import { SwiperOptions } from 'swiper/types';
 import { IContenido } from './BDContenido/IContenido';
 import { contenidoJSON } from './BDContenido/contenidoJSON';
+import { RouterLink } from '@angular/router';
 register();
 @Component({
   selector: 'app-contenido',
@@ -12,6 +13,7 @@ register();
   imports: [
     NgOptimizedImage,
     CommonModule,
+    RouterLink,
   ],
   template: `
   <header>
@@ -21,9 +23,11 @@ register();
           <swiper-container init=false class="swiper-contenido">
             @for (item of items; track $index) {
                 <swiper-slide>
-                  <div class="slide-style">
+                  <div class="slide-style">    
                     <div class="articulo">
+                    <a [routerLink]="['/article', item.id]">
                     <img [ngSrc]="item.img" [width]=250 [height]=250 [alt]="item.titulo">
+                    </a>
                     <ul class="etiquetas">
                     @for (etiqueta of item.etiquetas; track $index) {
                       <li class="etiqueta">{{etiqueta}}</li>
@@ -84,5 +88,7 @@ export class ContenidoComponent {
       this.swiperElements.set(swiperElemConstructor as SwiperContainer);
       this.swiperElements()?.initialize();
     }
-
+    trackByFn(index: number, item: IContenido): number {
+      return item.id;
+    }
  }

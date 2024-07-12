@@ -15,7 +15,7 @@ import { ContenidoComponent } from "./contenido/contenido.component";
     PresentacionComponent,
     AutorComponent,
     FooterComponent,
-    ContenidoComponent
+    ContenidoComponent,
 ],
   template: `
   <header>

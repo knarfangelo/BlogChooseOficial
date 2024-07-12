@@ -2,6 +2,7 @@ import { IContenido } from "./IContenido";
 
 export const contenidoJSON:IContenido[] = [
     {
+        id: 1,
         img: "/navegacion/contenido/SOCIALLISTENINGIMPORTANCIA.png",
         etiquetas: ["Contenido digital", "Novedades", "Social Listening"],
         titulo: "Triunfaron gracias al Social Listening",
@@ -9,6 +10,7 @@ export const contenidoJSON:IContenido[] = [
         comentarios: 0
     },
     {
+        id: 2,
         img: "/navegacion/contenido/IMPORTANCIADELCONTENIDODIGITAL.png",
         etiquetas: ["Contenido digital", "Novedades", "Social Listening"],
         titulo: "La importancia del contenido digital para tu marca",
@@ -16,6 +18,7 @@ export const contenidoJSON:IContenido[] = [
         comentarios: 0
     },
     {
+        id: 3,
         img: "/navegacion/contenido/DISENOWEBTENDENCIAS.png",
         etiquetas: ["Contenido digital", "Web y programación"],
         titulo: "Tendencias de Diseña Web 2024: Una mirada al futuro",
@@ -23,6 +26,7 @@ export const contenidoJSON:IContenido[] = [
         comentarios: 0
     },
     {
+        id: 4,
         img: "/navegacion/contenido/DESARROLLOWEBinnovacion.png",
         etiquetas: ["Contenido digital"],
         titulo: "Potencia tu transformación Digital",
