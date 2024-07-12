@@ -18,9 +18,9 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
       <ul>
         <li><a href="">WEB Y PROGRAMACION</a></li>
         <li><a href="">LEY DEL OLVIDO</a></li>
-        <li><a href="">CONTENIDO DIGITAL</a></li>
+        <li><a href="#contenido">CONTENIDO DIGITAL</a></li>
         <li><a href="">SOCIAL LISTENING</a></li>
-        <li><a href="">AUTOR</a></li>
+        <li><a href="#autor">AUTOR</a></li>
       </ul>
     </nav>
 

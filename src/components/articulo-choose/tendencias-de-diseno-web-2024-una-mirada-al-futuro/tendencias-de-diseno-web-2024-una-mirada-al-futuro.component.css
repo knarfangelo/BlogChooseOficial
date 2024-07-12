@@ -65,3 +65,9 @@ img{
 p{
   text-align: justify;
 }
+
+@media (max-width: 800px){
+  ol,ul,li{
+    padding: 0;
+  }
+}
