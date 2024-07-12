@@ -23,7 +23,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <h2>Principios Clave de la Ley del Olvido</h2>
       <ul>
         <li>
-        Relevancia y Pertinencia: Los datos que son irrelevantes, inexactos, o desactualizados pueden ser eliminados.
+        Relevancia y Pertinencia: Los datos que son irrelevantes, inexactos, o desactualizados pueden ser eliminados
         </li>
         <br />
         <li>
