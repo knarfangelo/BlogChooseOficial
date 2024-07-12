@@ -45,7 +45,7 @@ register();
         <p>junio 6, 2024</p>
         </div>
       </a>
-      <a href="/articulo/la-ley-del-olvido-protege-tu-reputacion-con-choose" class="articulo-3">
+      <a routerLink="/articulo/la-ley-del-olvido-protege-tu-reputacion-con-choose" class="articulo-3">
       <img ngSrc="/panel-principal/LALEYDELOLVIDOPROTEGETUREPUTACION.png" fill=""  alt="">
       <div class="fondo"></div>
       <div class="contenido">
