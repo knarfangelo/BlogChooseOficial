@@ -31,7 +31,7 @@ nav{
   display: flex;
   justify-content: center;
   width: 100%;
-  position: absolute;
+  position: fixed;
 }
 ul{
   display: flex;
@@ -81,7 +81,7 @@ button{
 
 .button-nav.open{
   transform: translateX(0); /* Mostrar el menú */
-  position: absolute;
+  position: fixed;
 }
 
 @keyframes moveRight {
