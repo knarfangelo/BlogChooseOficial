@@ -18,7 +18,6 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <img src="/icon/start.svg" alt="">
         <img src="/icon/start.svg" alt="">
         <img src="/icon/start.svg" alt="">
-
       </div>
     </div>    
   </header>

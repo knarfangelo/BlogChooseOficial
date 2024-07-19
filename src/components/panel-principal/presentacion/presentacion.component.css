@@ -27,3 +27,8 @@ header{
   height: 30px;
   margin: 5px;
 }
+
+img:hover{
+ fill:red;
+ cursor: pointer;
+}

@@ -20,11 +20,11 @@ register();
   <div class="container-navegacion">
     <h1><a class="container-logo" href=""><img class="logo" src="/navegacion/novedades/logo.png" alt="" priority="" ></a> </h1>
     <nav>
-      <li><a href="">WEB Y PROGRAMACION</a> </li>
-      <li><a href="">LEY DEL OLVIDO</a> </li>
-      <li><a href="#contenido">CONTENIDO DIGITAL</a> </li>
-      <li><a href="">SOCIAL LISTENING</a> </li>
-      <li><a href="#autor">AUTOR</a></li>
+    <li><a href="">DESARROLLO WEB</a></li>
+        <li><a href="">CREACIÓN DE CONTENIDO</a></li>
+        <li><a href="#contenido">SOCIAL LISTENING</a></li>
+        <li><a href="">REGULACION DE CONTENIDO</a></li>
+        <li><a href="#autor">ENVIOS MASIVOS</a></li>
     </nav>
     <div class="container-novedades">
       <p class="titulo-novedades">Novedades</p>
