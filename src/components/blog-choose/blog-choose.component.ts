@@ -19,7 +19,7 @@ import { WhatsappComponent } from "../whatsapp/whatsapp.component";
 ],
   template: `
        <app-panel-principal></app-panel-principal>
-       <app-whatsapp></app-whatsapp>   
+      
   `,
   styleUrl: './blog-choose.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
