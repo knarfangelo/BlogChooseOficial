@@ -68,7 +68,7 @@ export class NavegacionComponent {
           640: {
             slidesPerView:2,
           },
-          1024: {
+          1100: {
             slidesPerView:3,
           },
         },
